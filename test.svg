@@ -4,7 +4,8 @@
             <style>
             h1 {
                 color: red;
-                animation: mymove 2s infinite;
+                animation: mymove 3s ease forwards infinite;
+                background-color: #00ff00;
             }
 
             @keyframes mymove {
@@ -17,6 +18,9 @@
             }
             </style>
             <h1>HELLO WORLD!</h1>
+            <script>
+            alert("test");
+    </script>
         </div>
     </foreignObject>
 </svg>
